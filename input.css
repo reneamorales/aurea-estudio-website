@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+    /* Definición de las fuentes */
+  --font-primary: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-secondary: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+
+  /* Golden ratio */
+  --golden-ratio: 1.618;
+
+  --text-xxs: 0.625rem; /* 10px *//*no-usados*/
+  --text-altxl: 1.375rem; /* 22px *//*no-usados*/
+
+  /* line height with golden ratio */
+  
+  --spacing-lh-4xl: calc(var(--golden-ratio) * 36px);
+  --spacing-lh-5xl: calc(var(--golden-ratio) * 48px);
+}
