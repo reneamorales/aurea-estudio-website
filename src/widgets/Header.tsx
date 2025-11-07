@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { Link} from "react-router-dom";
-import { ScrollLink } from "@components/ScrollLink";
+import { ScrollLink } from "@/components/ScrollLink/ScrollLink";
 import Menu from "../icons/Menu";
 
 export const Header = () => {
